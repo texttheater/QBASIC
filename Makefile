@@ -23,3 +23,6 @@ gif/%.gif : tmp/%.gif
 	# compression, we need to "unoptimize" these out into full frames
 	# before editing. Compress ("optimize") again at the end.
 	cat $< | gifsicle --unoptimize --delete "#$(RCLIP_$*)-" | gifsicle --delete "#0-$(LCLIP_$*)" --optimize > $@
+
+clean :
+	rm -rf bin gif tmp
