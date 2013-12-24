@@ -160,7 +160,7 @@
 1590 PRINT "                        SHPLADDERWOSH!"
 1600 CALL DELAY (150000)
 1610 CLS
-1620 PRINT "                   lemm"
+1620 PRINT "                    lemm"
 1630 PRINT "                        i"
 1640 PRINT "                        n"
 1650 PRINT "                        g"
