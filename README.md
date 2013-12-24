@@ -15,6 +15,7 @@ Programs adapted so far
 -----------------------
 
 * LEMMINGE.BAS
+* LEMMING2.BAS
 
 Requirements
 ------------
