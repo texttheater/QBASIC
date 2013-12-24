@@ -28,6 +28,11 @@ DURATION_LEMMINGE=30
 LCLIP_LEMMINGE=0
 RCLIP_LEMMINGE=55
 
+RECDELAY_LEMMING2=1
+DURATION_LEMMING2=45
+LCLIP_LEMMING2=0
+RCLIP_LEMMING2=90
+
 # This works assuming that run_qb64.sh is on your PATH, otherwise you can also
 # delete everything from the first $ and fill in the concrete path.
 QB64DIR=$$(dirname $$(readlink -m $$(which run_qb64.sh)))
